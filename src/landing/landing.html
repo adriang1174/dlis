@@ -60,9 +60,14 @@
      .jumbotron .btn:hover{
 		background-position: 0px -47px;
 		transition: background-position 0s linear 0s;
+		-webkit-transition: background-position 0s linear;
       }
 	  
 	 .jumbotron .btn-success{
+		background-image: -moz-linear-gradient(top, rgb(18, 18, 18), rgb(1, 1, 1));
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(44, 44, 44)), to(rgb(1, 1, 1)));
+
+		background-image: -o-linear-gradient(top, rgb(18, 18, 18), rgb(1, 1, 1));
 		background-image: linear-gradient(to bottom, rgb(18, 18, 18), rgb(1, 1, 1));
 	  }
       /* Supporting marketing content */
