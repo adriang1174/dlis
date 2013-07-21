@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="form_compradlis.asp"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="514"
+ height="185"
+ bkcolor="0xFFFFFF"
+ transparent="t"
+ fontcolor="0x000000"
+ themecolor="0xFFFFFF"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required !"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="false"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://www.compradlis.com/COMPRADLIS.gracias.htm"
+></hidden>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<textinput
+ name="NOMBRE"
+ x="0"
+ y="18"
+ w="260"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="CIUDAD"
+ x="279"
+ y="18"
+ w="235"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="TELEFONO"
+ x="0"
+ y="65"
+ w="261"
+ h="22"
+ initvalue=""
+ maxchars="15"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Email"
+ x="279"
+ y="65"
+ w="235"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<textinput
+ name="ConsultaComentario"
+ x="0"
+ y="111"
+ w="514"
+ h="22"
+ initvalue=""
+ maxchars="300"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<browsebutton
+ name="Upload File Button"
+ x="82"
+ y="145"
+ w="149"
+ h="24"
+ label="Seleccionar Archivo"
+ fontname="Times New Roman"
+ fontcolor="0x808080"
+  fontsize="16"
+></browsebutton>
+
+<submitbutton
+ name="Submit Button"
+ x="281"
+ y="145"
+ w="174"
+ h="24"
+ label="Solicitar COTIZACION"
+ fontname="Times New Roman"
+ fontcolor="0x808080"
+  fontsize="16"
+></submitbutton>
+
+<label
+ name="My Text 2"
+ x="0"
+ y="-1"
+ w="110"
+ h="16"
+ text="Nombre y Apellido"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="279"
+ y="46"
+ w="41"
+ h="16"
+ text="E-mail"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="0"
+ y="46"
+ w="52"
+ h="16"
+ text="Telefono"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="0"
+ y="92"
+ w="125"
+ h="16"
+ text="Consulta/Comentario"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="278"
+ y="0"
+ w="108"
+ h="16"
+ text="Ciudad / Provincia"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 1"
+ x="0"
+ y="148"
+ w="80"
+ h="16"
+ text="Subir Imágen"
+  fontname="Arial"
+  fontcolor="0x333333"
+  fontsize="13"
+></label>
+
+</form>

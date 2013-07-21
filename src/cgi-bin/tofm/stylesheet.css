@@ -1,0 +1,375 @@
+	BODY 
+		{
+			SCROLLBAR-HIGHLIGHT-COLOR:#D8C2AD;
+			SCROLLBAR-TRACK-COLOR:#FAFCED;
+			SCROLLBAR-SHADOW-COLOR:#000000;
+			SCROLLBAR-FACE-COLOR:#D8C2AD;
+			SCROLLBAR-3DLIGHT-COLOR:#000000;
+			SCROLLBAR-ARROW-COLOR:#FFFDDD;
+			SCROLLBAR-DARKSHADOW-COLOR:#000000;
+		}
+	
+	
+	.FONTTITLE
+		{
+			border:0px solid #72550F;
+			width:150px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+
+	.FONT
+		{
+			border:0px solid #72550F;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+
+	.FONTTITLE2
+		{
+			border:0px solid #72550F;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTCOL
+		{
+			border:0px solid #72550F;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTENCUESTA
+		{
+			border:0px solid #72550F;
+			width:200px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+	
+	
+		}
+	
+	.FONTINPUT2
+		{
+			border:1px solid #7b8185;
+			width:150px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTINPUT
+		{
+			border:1px solid #7b8185;
+			width:250px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTOPCIONES
+		{
+			border:0px solid #7b8185;
+			width:150px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTGRANDE
+		{
+			border:0px solid #72550F;
+			width:150px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTBOTON
+		{
+			border:1px solid #7b8185;
+			width:108px;
+			height:18px;
+			background-color:#EDE9D7;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.FONTREGISTRO
+		{
+			border:0px solid #FFFFFF;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+
+
+	.FONTREGISTROLINK
+		{
+		        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		        font-size: 11px;
+		        font-style: normal;
+		        line-height: 25px;
+		        font-weight: bold;
+		        font-variant: normal;
+		        text-transform: none;
+		        color: #7b8185;
+		        background-color:inherit;
+		        text-decoration: none;
+		}
+
+	
+	.FONTPOWEREDBY
+		{
+			border:0px solid #72550F;
+			width:200px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #7b8185;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+	
+
+	.TABLA
+		{
+			border:2px solid #7b8185;
+			background-color:#FFFFFF;
+
+		}
+
+	.TABLATD
+		{
+			border-left: 1px solid  #bebebe;
+			border-top: 1px solid  #bebebe;
+			padding-left: 5px; 
+		}
+
+
+	.TABLATR
+		{
+			border: 1px #7b8185;
+			background-color:#FFFFFF;
+			border-style: solid 1px;
+
+		}
+
+	.LINK 
+		{
+		        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		        font-size: 10px;
+		        font-style: normal;
+		        line-height: 25px;
+		        font-weight: bold;
+		        font-variant: normal;
+		        text-transform: none;
+		        color: #2fa8e0;
+		        background-color:inherit;
+		        text-decoration: none;
+		}
+
+	.LINKMENU 
+		{
+		        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		        font-size: 11px;
+		        font-style: normal;
+		        line-height: 25px;
+		        font-weight: bold;
+		        font-variant: normal;
+		        text-transform: none;
+		        color: #7b8185;
+		        background-color:inherit;
+		        text-decoration: none;
+		}
+	
+
+	.INPUTENCUESTA2
+		{
+			COLOR: 000080;
+			FONT: 10px Helvetica;
+			BACKGROUND-COLOR: AA89C2;
+			BORDER-RIGHT: 1px solid; 
+			BORDER-LEFT: 1px solid; 
+			BORDER-TOP: 1px solid; 
+			BORDER-BOTTOM: 1px solid 
+	
+		}
+
+	.INPUTTEXTAREA
+		{
+			border:1px solid #7b8185;
+			width:250px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+
+	.INPUTGETCODE
+		{
+			border:1px solid #7b8185;
+			width:600px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}
+	.INPUTENCUESTA
+		{
+			border:1px solid #7b8185;
+			width:150px;
+			height:18px;
+			background-color:#FFFFFF;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			line-height: 14px;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			color: #72550F;
+			text-decoration: none;
+			padding-left:3px;
+
+		}

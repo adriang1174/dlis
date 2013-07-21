@@ -1,0 +1,34 @@
+/*REQUIRED CSS*/
+div.scwd1{
+  border: 0px;
+  overflow: hidden;
+  position: relative;
+}
+div.scwd2{
+  position: absolute;
+}
+div.scwd3{
+  padding: 4px;
+  height: auto;
+  visibility: visible;
+}
+div.scwscrollcontrol{
+  text-align: right;
+}
+div.scwpagecontrol{
+  text-align: right;
+}
+div.scwplaycontrol{
+  text-align: right;
+}
+.scwbuttons{
+  text-decoration: none;
+}
+/*custom css()*/
+div#scw4play{
+  text-align: left;
+}
+div#scw3content{
+  text-align: left;
+}
+

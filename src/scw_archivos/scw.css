@@ -1,0 +1,27 @@
+DIV.scwd1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; OVERFLOW: hidden; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; POSITION: relative
+}
+DIV.scwd2 {
+	POSITION: absolute
+}
+DIV.scwd3 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; VISIBILITY: visible; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; HEIGHT: auto
+}
+DIV.scwscrollcontrol {
+	TEXT-ALIGN: right
+}
+DIV.scwpagecontrol {
+	TEXT-ALIGN: right
+}
+DIV.scwplaycontrol {
+	TEXT-ALIGN: right
+}
+.scwbuttons {
+	TEXT-DECORATION: none
+}
+DIV#scw4play {
+	TEXT-ALIGN: left
+}
+DIV#scw3content {
+	TEXT-ALIGN: left
+}

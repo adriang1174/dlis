@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>ASP Formulario por Correo</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+<script language="JavaScript">
+
+function copyEmail(f) {
+
+  var s;
+
+  s = f.elements["Email_Address"].value;
+  if (s != "") {
+	  f.elements["Email_Address"].value = s;
+     return true;
+  }
+  alert("Por favor ingrese su cuenta de correo.");
+  f.elements["Email_Address"].focus();
+  return false;
+}
+
+</script>
+</head>
+<body bgcolor="#ffffff">
+<center>
+
+
+<form action="formmail.asp" method="post" onsubmit="return copyEmail(this)">
+
+<input name="mail_desde" type="hidden" value="info@compradlis.com">
+<input name="mail_para" type="hidden" value="adriang_1174@hotmail.com">
+<input name="mail_cc" type="hidden" value="">
+<input name="mail_bcc" type="hidden" value="">
+<input name="mail_asunto" type="hidden" value="Contacto">
+<input name="mail_Format" type="hidden" value="html">
+<input name="mail_gracias" type="hidden" value="http://www.compradlis.com/ok.html">
+
+<table>
+<tr><td>
+<img src="formmail.png">
+</td></tr>
+</TABLE>
+
+<table width=450 ALIGN=CENTER CLASS=TABLA  cellpadding=0 cellspacing=0>
+<tr>
+  <td >&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr >
+  <td ><font CLASS=FONTTITLE><b>Nombre:</b></font></td>
+  <td ><input CLASS=FONTINPUT name="nombrecliente" size=30 value=""></td>
+</tr>
+<tr >
+  <td ><font CLASS=FONTTITLE><b>Dirección:</b></font></td>
+  <td ><input CLASS=FONTINPUT name="direccion" size=30 value=""></td>
+</tr>
+<tr >
+  <td ><font CLASS=FONTTITLE><b>*Email:</b></font></td>
+  <td ><input CLASS=FONTINPUT name="Email_Address" size=15 value=""></td>
+<tr>
+<tr >
+  <td ><font CLASS=FONTTITLE><b>Ciudad:</b></font></td>
+  <td ><input CLASS=FONTINPUT name="ciudad" size=15 value=""></td>
+<tr>
+<tr >
+  <td ><font CLASS=FONTTITLE><b>Pais:</b></font></td>
+  <td ><input CLASS=FONTINPUT name="pais" size=15 value=""></td>
+<tr>
+
+<tr>
+  <td ><font CLASS=FONTTITLE><b>Teléfono:</b></font></td>
+  <td><input CLASS=FONTINPUT name="telefono" size=12 value=""></td>
+</tr>
+<tr valign=top>
+  <td  ><font CLASS=FONTTITLE><b>Comentarios:</b></font><br>
+  <td>  <textarea CLASS=INPUTTEXTAREA name="comentarios" rows=10 cols=30></textarea></td>
+  </td>
+</tr>
+<tr>
+  <td >&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr valign=top>
+  <TD><font class=font>(* Datos obligatorios)</font></TD>
+  <td ALIGN=CENTER ><input CLASS=FONTBOTON type=submit value="Enviar"> <input CLASS=FONTBOTON type=reset value="Limpiar"></td>
+  </td>
+</tr>
+<tr>
+  <td >&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+</table>
+<p>
+
+</form>
+
+</body>
+</html>
